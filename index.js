@@ -2,12 +2,12 @@ var katzDeli = [];
 var katzDeliLine = [];
 var ticketNumber = 0;
 
-takeANumber(katzDeliLine, ticketNumber++);
-takeANumber(katzDeliLine, ticketNumber++);
-takeANumber(katzDeliLine, ticketNumber++);
-
+takeANumber(katzDeliLine);
+takeANumber(katzDeliLine);
+takeANumber(katzDeliLine);
 
 function takeANumber(currentLine, number){
+  ticketNumber ++
   currentLine[currentLine.length] = number;
   return `Welcome ticket #${number}. You are number ${currentLine.length} in line.`;
 }

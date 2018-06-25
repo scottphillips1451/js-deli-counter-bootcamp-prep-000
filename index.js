@@ -2,7 +2,6 @@ var katzDeli = [];
 var katzDeliLine = [];
 var ticketNumber = 0;
 
-ticketNumber++
 takeANumber(katzDeliLine, ticketNumber++);
 takeANumber(katzDeliLine, ticketNumber++);
 takeANumber(katzDeliLine, ticketNumber++);

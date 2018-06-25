@@ -6,7 +6,7 @@ takeANumber(katzDeliLine);
 takeANumber(katzDeliLine);
 takeANumber(katzDeliLine);
 
-function takeANumber(currentLine, number){
+function takeANumber(currentLine){
   ticketNumber ++
   currentLine[currentLine.length] = number;
   return `Welcome ticket #${number}. You are number ${currentLine.length} in line.`;

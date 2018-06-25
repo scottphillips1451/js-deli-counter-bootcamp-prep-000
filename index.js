@@ -4,6 +4,8 @@ var ticketNumber = 0;
 
 ticketNumber++
 takeANumber(katzDeliLine, ticketNumber++);
+takeANumber(katzDeliLine, ticketNumber++);
+takeANumber(katzDeliLine, ticketNumber++);
 
 
 function takeANumber(currentLine, number){
